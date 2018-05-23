@@ -1,5 +1,5 @@
 <?php
-require "vendor/autoload.php";
+//require "vendor/autoload.php";
 require "config.php";
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
