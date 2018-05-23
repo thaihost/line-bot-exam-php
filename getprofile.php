@@ -1,7 +1,7 @@
 <?php
 include('config.php');
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
-$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => ''.$chanel_secret.'']);
+$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '269d0c2229a8ecbc6b7e8844f721918d']);
 $response = $bot->getProfile('mr.casper');
 if ($response->isSucceeded()) {
     $profile = $response->getJSONDecodedBody();
