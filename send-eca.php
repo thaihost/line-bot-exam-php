@@ -5,6 +5,6 @@ $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('buYf800xQgGQZMD3w3LAt
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '90b28c62ec083be23aa8356de778c5a3']);
 $txt='สวัสดีครับทุกท่าน\nเป็นอย่างไรบ้าง';
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($txt);
-$response = $bot->pushMessage('90b28c62ec083be23aa8356de778c5a3', $textMessageBuilder);
+$response = $bot->pushMessage('Ue96da58faf93ffecd17e309f43369a20', $textMessageBuilder);
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 ?>
