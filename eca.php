@@ -1,0 +1,4 @@
+<?php
+$access_token='buYf800xQgGQZMD3w3LAtQtLNYP81blCa6jFF2+t6ACDpwg3u8TmLjFNNx30y7yhQofFQT/NN8T7upUACQZdGuTWDFpS5EqgVvjNLuyJuJ9hGBGB2TXk47hhbdOXb5EXKP1J+BhAsFprDOaz3VjtiwdB04t89/1O/w1cDnyilFU=';
+$chanel_secret='90b28c62ec083be23aa8356de778c5a3';
+?>
